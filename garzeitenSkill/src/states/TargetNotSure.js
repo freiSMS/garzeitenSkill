@@ -1,5 +1,11 @@
 //const WANT_TO_CHANGE_TARGET_STATE = require('./states/targetNotSure/WantToChangeTarget');
-const WANT_TO_CHANGE_TARGET_STATE = require('./states/targetNotSure/WantToChangeTarget.js');
+const WANT_TO_CHANGE_TARGET_STATE = require('./targetNotSure/WantToChangeTarget.js');
+var garzeitenObjekte = require("../data.json");
+
+
+//Config
+var maxDifferenceForOtherGoodResults = 0.6;
+
 
 
 module.exports = {

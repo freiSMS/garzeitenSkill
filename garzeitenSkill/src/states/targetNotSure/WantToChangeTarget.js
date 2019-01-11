@@ -1,3 +1,5 @@
+var garzeitenObjekte = require("../../data.json");
+
 module.exports = {
     YesIntent() {
         var askedCorrectionResult = this.$session.$data.askedCorrectionResult;

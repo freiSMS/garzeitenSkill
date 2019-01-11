@@ -28,17 +28,16 @@ app.use(
 var stringSimilarity = require('string-similarity');
 
 var garzeitenObjekte = require("./data.json");
-const TARGET_NOT_SURE_STATE= require('./src/states/TargetNotSure.js');
+const TARGET_NOT_SURE_STATE= require('./states/TargetNotSure.js');
 
 
 
 //Config
-//var targetFoundTreshold = 0.6;
-//var targetNotSureTreshold = 0.4;
-var maxDifferenceForOtherGoodResults = 0.6;
+var targetFoundTreshold = 0.7;
+var targetNotSureTreshold = 0.4;
 
-var targetFoundTreshold = 1;
-var targetNotSureTreshold = 0;
+//var targetFoundTreshold = 1;
+//var targetNotSureTreshold = 0;
 
 
 
